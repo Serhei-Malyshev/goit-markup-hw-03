@@ -75,7 +75,7 @@ img {
 	width: 1200px;
 	margin: 0 auto;
 	padding: 0 15px;
-	/* outline: 2px dashed #2196f3; */
+	outline: 2px dashed #2196f3;
 }
 /* Общие_оформление_текста_в_секциях */
 
@@ -121,6 +121,8 @@ img {
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
+	padding-top: 24px;
+	padding-bottom: 25px;
 	color: #000000;
 }
 
@@ -214,13 +216,21 @@ img {
 	line-height: 1.4;
 	text-align: center;
 	text-transform: uppercase;
+	letter-spacing: 0.06em;
 	margin-bottom: 30px;
+	width: 696px;
+	margin: 0 auto 30px;
 }
 .hero-content-formation {
 	background-color: var(--secondary-background-color);
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
+
+/* .container_title {
+	width: 696px;
+	margin: 0 auto;
+} */
 
 /* HERO-BUTTON */
 
