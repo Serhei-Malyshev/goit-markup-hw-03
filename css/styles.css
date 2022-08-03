@@ -349,6 +349,11 @@ img {
 	text-align: center;
 	color: var(--secondary-text-color);
 }
+/* 
+.team-image_formation {
+	width: 100%;
+	height: auto;
+} */
 
 /* PORTFOLIO-FILTER-BUTTON */
 
