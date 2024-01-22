@@ -1,4 +1,4 @@
-# Educational project GOIT Homework 2
+# Educational project GOIT Homework 3
 
 ## CSS styling of designer mockup "Web Studio" without positioning and element geometry.
 
