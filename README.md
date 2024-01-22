@@ -1,6 +1,6 @@
 # Educational project GOIT Homework 3
 
-## Position and geometry of elements of design mockup "Web Studio". FlexBox.
+## Position and geometry of elements of design mockup "Web Studio". Block model. FlexBox.
 
 ### live page
 
@@ -8,7 +8,7 @@ https://serhei-malyshev.github.io/goit-markup-hw-03/
 
 ### Design mockup
 
-https://github.com/Serhei-Malyshev/goit-markup-hw-02/blob/main/images/mockup-jpg/GOIT-HM-2-Main-Page.jpg
+https://github.com/Serhei-Malyshev/goit-markup-hw-03/blob/main/images/mockup-jpg/GOIT-HM-3-Main-Page.jpg
 
 ## Review of other educational projects of GOIT
 
