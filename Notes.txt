@@ -12,4 +12,4 @@ Font-size em = Font-size px / Base Font-size px
 Letter-spacing em = (Letter-spasing % / 100) x Font-size em
 
 
-Відшукати статтю "30 типів селекторів"
+Задавати ширину контейнера 1230px, але робити падінги по 15px. 
