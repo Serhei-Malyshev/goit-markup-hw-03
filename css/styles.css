@@ -37,15 +37,33 @@ p {
 }
 
 .container {
+  width: 100%;
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 img {
   display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* end-global-style */
@@ -55,6 +73,11 @@ img {
 Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 
 /** header-section */
+
+.header--flex {
+  display: flex;
+}
+
 /* header-section-logo */
 
 .header__nav-logo-link {
@@ -74,6 +97,15 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 
 /* header-section-navmenu */
 
+.header__navmenu {
+  display: flex;
+}
+
+.header__navmenu-list {
+  display: flex;
+}
+
+.header__navmenu-list,
 .header__navmenu-link {
   font-weight: 500;
   color: #2e2f42;
@@ -93,6 +125,10 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   font-style: normal;
 }
 
+.header__address-list {
+  display: flex;
+}
+
 .header__address-link {
   color: #434455;
   text-decoration: none;
@@ -110,18 +146,23 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 /** hero-section-start */
 
 .hero {
+  padding: 188px 0 188px 0;
   background-color: #2e2f42;
 }
 
 .hero__tittle {
+  max-width: 496px;
   text-align: center;
   color: #ffffff;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin: 0 auto 48px auto;
 }
 
 .hero__button {
+  display: block;
+  margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   color: #fff;
@@ -148,9 +189,14 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   letter-spacing: 0.02em;
 }
 
+.advantages__tittle {
+  margin-bottom: 8px;
+}
+
 .advantages__txt {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 /** advatages-section-end */
@@ -260,6 +306,10 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.footer {
+  padding: 100px 0 100px 0;
 }
 
 /** footer-section-end */
