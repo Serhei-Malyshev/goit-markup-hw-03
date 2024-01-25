@@ -80,7 +80,7 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 
 /* header-section-logo */
 
-.header__nav-logo-link {
+.header__navmenu-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -91,7 +91,7 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   text-decoration: none;
 }
 
-.header__nav-logo-txt--navy-blue {
+.header__navmenu-logo--gray {
   color: #2e2f42;
 }
 
@@ -153,23 +153,30 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 .hero__tittle {
   max-width: 496px;
   text-align: center;
+  margin: 0 auto 48px auto;
+
   color: #ffffff;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin: 0 auto 48px auto;
 }
 
 .hero__button {
   display: block;
   margin: 0 auto;
+  border-radius: 4px;
+  padding: 16px 32px;
+
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   color: #fff;
   line-height: 1.5;
   letter-spacing: 0.04em;
+
   cursor: pointer;
+  border: none;
   background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .hero__button:hover,
@@ -214,6 +221,7 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+
   text-transform: capitalize;
 }
 
