@@ -1,7 +1,7 @@
 # Educational project GOIT Homework 3
 
 <div align="center">
-	<img src="https://sindresorhus.com/assets/thanks/standard-resume-logo.svg" width="200"/>
+	<img src="https://raw.githubusercontent.com/Serhei-Malyshev/goit-markup-hw-03/main/images/github-readme/goit-logo-596.png" width="596"/>
 </div>
 
 ## Position and geometry of elements of design mockup "Web Studio". Block model. FlexBox.
