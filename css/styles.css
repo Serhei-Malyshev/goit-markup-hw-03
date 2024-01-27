@@ -311,7 +311,7 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 }
 
 .portfolio__card-item {
-  max-width: 360px;
+  width: calc((100% - 48px) / 3);
 
   border: 1px solid #e7e9fc;
   background-color: #ffffff;
