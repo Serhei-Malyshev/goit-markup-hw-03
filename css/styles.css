@@ -74,13 +74,20 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 
 /** header-section */
 
-.header--flex {
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header--wrap {
   display: flex;
+  align-items: center;
 }
 
 /* header-section-logo */
 
 .header__navmenu-logo {
+  margin-right: 76px;
+
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -99,14 +106,18 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 
 .header__navmenu {
   display: flex;
+  align-items: center;
 }
 
 .header__navmenu-list {
   display: flex;
+  gap: 40px;
 }
 
-.header__navmenu-list,
 .header__navmenu-link {
+  display: block;
+  padding: 24px 0;
+
   font-weight: 500;
   color: #2e2f42;
   line-height: 1.5;
@@ -123,10 +134,12 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 
 .header__address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .header__address-list {
   display: flex;
+  gap: 40px;
 }
 
 .header__address-link {
