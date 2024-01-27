@@ -266,6 +266,7 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 } */
 
 .our-team__card-desc {
+  padding: 32px 0;
   padding-top: 32px;
   padding-right: 16px;
   padding-bottom: 32px;
@@ -325,7 +326,9 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 
 .portfolio__card-desc {
   padding: 32px 16px;
+
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio__card-tittle {
@@ -353,7 +356,7 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 
 .footer__logo-link {
   margin-bottom: 16px;
-  display: block;
+  display: inline-block;
 
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
